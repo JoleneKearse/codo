@@ -16,8 +16,26 @@ export default {
 				900: "#0D0D0D",
 				950: "#080808",
 			},
+			brand: {
+				50: "#EAFEE2",
+				100: "#D4FCC4",
+				200: "#AAFA8A",
+				300: "#7FF74F",
+				400: "#54F515",
+				500: "#3EC309",
+				600: "#2B8806",
+				700: "#206705",
+				800: "#164403",
+				900: "#0B2202",
+				950: "#050F01",
+			},
 		},
-		extend: {},
+		extend: {
+			fontFamily: {
+				titles: ["major-mono-display", "monospace"],
+				terminal: ["martian-mono-variable", "monospace"],
+			},
+		},
 	},
 	plugins: [],
 };
