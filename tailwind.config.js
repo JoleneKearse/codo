@@ -29,6 +29,7 @@ export default {
 				900: "#0B2202",
 				950: "#050F01",
 			},
+			blue: "#008fff",
 		},
 		extend: {
 			fontFamily: {
